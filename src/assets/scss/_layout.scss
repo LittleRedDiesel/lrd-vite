@@ -8,6 +8,7 @@ header {
 	align-items: center;
 	justify-content: space-between;
 	padding: 1rem;
+	margin-bottom: 2rem;
 
 	@media screen and (min-width: 768px) {
 	  flex-direction: row;
@@ -53,10 +54,33 @@ header {
 	max-width: 1300px;
 	padding-left: 25px;
 	padding-right: 25px;
+	padding-bottom: 3rem;
 	margin: auto;
+	position: relative;
+
+	&:after {
+		content: '';
+		position: absolute;
+		bottom: 0;
+		width: 150px;
+		border-bottom: 2px #E85F5C solid;
+		left: 50%;
+		transform: translateX(-50%);
+	}
+
+	&:last-of-type {
+		padding-bottom: 0;
+
+		&:after {
+			content: none;
+		}
+	}
 }
 
 /* Footer styles */
 footer {
+	background-color: #0D160B;
+	color: #fff;
 	padding: 1rem 2rem;
+	margin-top: 3rem;
 }
