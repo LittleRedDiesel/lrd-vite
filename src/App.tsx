@@ -11,7 +11,7 @@ function App() {
   return (
 		<>
 			<div className="content">
-				<p>We're a creative web solutions agency with over a decade of experience providing websites for small and large businesses. We build fast and dynamic websites and deliver them on time. We are passionate about web accessibility and this is reflected in our work. </p>
+				<p>We're a creative web solutions agency with over a decade of experience working on websites. We build fast, dynamic websites and deliver them on time. We are passionate about web accessibility and this is reflected in our work.</p>
 			</div>
 			<div className="content">
 				<h2>Services</h2>
@@ -25,42 +25,42 @@ function App() {
 					</li>
 					<li className="icon-list__item">
 						<span>
-							<img src={editContentIcon} className="icon" alt="Bar chart icon" />
+							<img src={editContentIcon} className="icon" alt="Editing content icon" />
 							Content management systems (CMS)
 						</span>
 						<p>We can edit your site's content or enable you to do this yourself.</p>
 					</li>
 					<li className="icon-list__item">
 						<span>
-							<img src={uploadDesktop} className="icon" alt="Bar chart icon" />
+							<img src={uploadDesktop} className="icon" alt="Upload icon" />
 							Website hosting
 						</span>
 						<p>We can host and manage your website for you and automate backups so it never goes down.</p>
 					</li>
 					<li className="icon-list__item">
 						<span>
-							<img src={pencilIcon} className="icon" alt="Bar chart icon" />
+							<img src={pencilIcon} className="icon" alt="Pencil icon" />
 							Copywriting
 						</span>
 						<p>We understand the importance of good copy and will happily advise on this.</p>
 					</li>
 					<li className="icon-list__item">
 						<span>
-							<img src={userCheckIcon} className="icon" alt="Bar chart icon" />
+							<img src={userCheckIcon} className="icon" alt="User tick icon" />
 							Accessibility auditing
 						</span>
 						<p>We can perform accessibility audits on your site to check it adheres to WCAG standards.</p>
 					</li>
 					<li className="icon-list__item">
 						<span>
-							<img src={hourglassIcon} className="icon" alt="Bar chart icon" />
+							<img src={hourglassIcon} className="icon" alt="Hourglass icon" />
 							Speed testing
 						</span>
 						<p>If your site is slow or underperforming we can make improvements.</p>
 					</li>
 					<li className="icon-list__item">
 						<span>
-							<img src={searchIcon} className="icon" alt="Bar chart icon" />
+							<img src={searchIcon} className="icon" alt="Search icon" />
 							SEO auditing
 						</span>
 						<p>We can perform SEO audits on your site to ensure your business is always visible.</p>
