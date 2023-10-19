@@ -16,10 +16,15 @@ header {
 	  margin-bottom: 2rem;
 	}
 
+	.headline {
+		display: flex;
+		align-items: center;
+	}
+
 
 	h1 {
 		margin: 0;
-		font-size: 1.9rem;
+		font-size: 1.6rem;
 		line-height: 1;
 		text-transform: uppercase;
 
@@ -36,17 +41,33 @@ header {
 		}
 	}
 
-	button {
+	.button, button {
 		position: fixed;
 		width: 100%;
 		bottom: 0;
-		border-radius: 0;
+		z-index: 1;
+		background-color: #D93041;
+		color: #fff;
+		border: 0;
+		margin: 0;
 
 		@media screen and (min-width: 768px) {
 			position: relative;
 			width: auto;
-			border-radius: 8px;
-			border: 1px solid transparent;
+			border: 1px solid #0D160B;
+			background-color: #fff;
+			color: #0D160B;
+			margin: 0 0 0 1rem;
+		}
+	}
+
+	.icon {
+		width: 20px;
+		margin: 0 1rem 0 0;
+
+		@media screen and (min-width: 768px) {
+			margin: 0 1rem 0 0;
+			width: 30px;
 		}
 	}
 }
@@ -80,12 +101,26 @@ header {
 			content: none;
 		}
 	}
+
+	h1 {
+		display: block;
+		font-size: 1.5em;
+		margin-block-start: 0.83em;
+		margin-block-end: 0.83em;
+		margin-inline-start: 0px;
+		margin-inline-end: 0px;
+		font-weight: bold;
+	}
 }
 
 /* Footer styles */
 footer {
 	background-color: #0D160B;
 	color: #fff;
-	padding: 1rem 2rem;
+	padding: 1rem 2rem 3rem;
 	margin-top: 3rem;
+
+	@media screen and (min-width: 768px) {
+		padding: 1rem 2rem;
+	}
 }

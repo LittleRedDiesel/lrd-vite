@@ -29,12 +29,28 @@ body {
 	min-height: 100vh;
 }
 
-button {
-	border-radius: 8px;
-	border: 1px solid transparent;
+.button, button {
+	border: 1px solid #0D160B;
 	padding: 0.6em 1.2em;
 	font-size: 1em;
-	font-weight: 500;
+	font-weight: 600;
 	font-family: inherit;
 	cursor: pointer;
+	text-align: center;
+	border: 1px solid #0D160B;
+	background-color: #D93041;
+	color: #fff;
+	display: inline-block;
+	margin-top: 1rem;
+
+	&:hover {
+		background-color: #0D160B;
+		color: #fff;
+	}
+}
+
+.icon {
+	width: 30px;
+	height: 30px;
+	margin-right: 1rem;
 }

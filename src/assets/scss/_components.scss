@@ -14,7 +14,7 @@
 
 		@media screen and (min-width: 768px) {
 			max-width: 20%;
-			padding: 1rem 2rem;
+			padding: 1rem;
 		}
 
 		span {
@@ -25,6 +25,27 @@
 				width: 30px;
 				height: 30px;
 				margin-right: 1rem;
+			}
+		}
+
+		&--col {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			justify-content: center;
+			flex: 1 1 100%;
+			padding: 2rem 0;
+
+			@media screen and (min-width: 768px) {
+				flex: 1 1 25%;
+				padding: 1rem 0;
+			}
+
+			.logo {
+				display: flex;
+				max-width: 250px;
+				max-height: 100px;
+				flex: 0 1 auto;
 			}
 		}
 	}
